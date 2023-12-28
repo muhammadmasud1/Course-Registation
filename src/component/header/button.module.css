@@ -1,0 +1,28 @@
+.button{
+ color: #fff;           
+padding: 12px 24px;
+border-radius: 5px;
+background: var(--Gardient, linear-gradient(90deg, #2563EB 0.36%, #D946EF 201.02%));
+}
+.nav{
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000428, #004e92);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000428, #004e92); 
+}
+
+.banner{
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000428, #004e92);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bannertitle{
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+background: var(--Gd, linear-gradient(90deg, #2563EB 0.11%, #D946EF 58.65%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
