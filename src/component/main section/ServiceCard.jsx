@@ -2,7 +2,7 @@ import style from './servicecard.module.css'
 
 const ServiceCard = ({serviceItem}) => {
         const {courseImg,serviceName,description,link} = serviceItem
-         console.log(serviceItem)
+        // console.log(serviceItem)
             return (
               <div className={style.border}>
                 <div className="card shadow-xl border border-white">

@@ -11,7 +11,7 @@ const Service03 = () => {
                       />
                     </div>
                     <div>
-                      <h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-400 to-pink-600">
+                      <h1 className={styles.serviceTitle}>
                         We complete every projects extra care as customer need
                       </h1>
                       <p className="text-[#ffff] py-5">

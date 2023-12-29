@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "clientImg": "https://i.ibb.co/pb85BxN/client1.png",
+    "clinetName": "Sunny Khan",
+    "clientTitle" : "Executive officer"
+    
+  },
+  {
+    "id": 2,
+    "clientImg": "https://i.ibb.co/SBV9pcP/client3.png",
+    "clinetName": "Alina Jesia",
+    "clientTitle" : "UX/UI DESIGNER"
+   
+  },
+  {
+    "id": 3,
+    "clientImg": "https://i.ibb.co/nQcvXV5/client2.png",
+    "clinetName": "Alex Sohag",
+    "clientTitle" : "BUSINESS DEVELOPMENT"
+    
+  },
+  {
+    "id": 4,
+    "clientImg": "https://i.ibb.co/s633rhY/client4.png",
+    "clinetName": "Afroza Mou",
+    "clientTitle" : "Head of marketing"
+
+  }
+ 
+]
+
+
+
+

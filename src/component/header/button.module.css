@@ -32,6 +32,7 @@ background-clip: text;
 .serviceTitle{
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 font-size: 42px;
+line-height: 47px;
 font-style: normal;
 font-weight: 700;
 background: var(--Gd, linear-gradient(90deg, #2563EB 0.11%, #D946EF 58.65%));
