@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import style from '../header/button.module.css'
 import Card from './Card';
+ import { ToastContainer, toast } from "react-toastify";
+ import "react-toastify/dist/ReactToastify.css";
 const Service01 = () => {
          const [course,setcoursedata] = useState([])
          const [selectdata, setselectdata] = useState([])
@@ -10,6 +12,23 @@ const Service01 = () => {
            
          // Function item Value Display Show
          const handledata = (item) => {
+
+          const duplicateData = selectdata.find(selectItem => selectItem.id === item.id)
+          if(duplicateData){
+            return toast.warn("Duplicate Course", {
+              autoClose: 1000,
+              position: "top-right",
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "dark",
+            });
+          }
+          
+           
+
            const newItemData = [...selectdata, item];
            setselectdata(newItemData);         
            // total price
@@ -22,8 +41,10 @@ const Service01 = () => {
           const totalCreditHour = totalCredit + totalCreditData;
           
          if (totalCreditHour > 20) {
-           alert("Finished Your Creadit");
-           return;
+           return toast.error("Finished Your Credit", {
+             autoClose: 1000,
+           });
+         
          }
           setTotalCredit(totalCreditHour);
 
@@ -82,6 +103,7 @@ const Service01 = () => {
                     </div>
                   </div>
                 </div>
+                <ToastContainer />
               </div>
             );
                   
