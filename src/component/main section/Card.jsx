@@ -3,7 +3,10 @@ import { FaCreditCard } from "react-icons/fa6";
 const Card = ({ item, handledata }) => {
   const { courseImg, courseName, description, coursePrice, credit } = item;
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div
+      className="card bg-transparent overflow-hidden 
+  bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 border-2 border-white to-transparen hadow-xl"
+    >
       <figure>
         <img
           src={courseImg}
@@ -11,20 +14,25 @@ const Card = ({ item, handledata }) => {
           alt="Images"
         />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title">
+      <div className="card-body overflow-hidden ">
+        <h2 className="card-title text-white">
           {courseName}
           <div className="badge badge-secondary">NEW</div>
         </h2>
-        <p>{description}</p>
+        <p className="text-white">{description}</p>
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <FaCommentDollar />
-            <h3>Price : {coursePrice} </h3>
+            <span className="text-[#FF00D3]">
+              {" "}
+              <FaCommentDollar />
+            </span>
+            <h3 className="text-white">Price : {coursePrice} </h3>
           </div>
           <div className="flex items-center gap-3">
-            <FaCreditCard />
-            <h3>Credit : {credit}</h3>
+            <span className="text-[#FF00D3]">
+              <FaCreditCard />
+            </span>
+            <h3 className="text-white">Credit : {credit}</h3>
           </div>
         </div>
         <div>

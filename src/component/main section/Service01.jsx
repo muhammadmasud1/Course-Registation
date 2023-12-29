@@ -26,9 +26,6 @@ const Service01 = () => {
               theme: "dark",
             });
           }
-          
-           
-
            const newItemData = [...selectdata, item];
            setselectdata(newItemData);         
            // total price
@@ -47,23 +44,14 @@ const Service01 = () => {
          
          }
           setTotalCredit(totalCreditHour);
-
           const totalRemainingCredit = 20 - totalCreditHour;
-          setTotalRemaining(totalRemainingCredit);
-         
-          
+          setTotalRemaining(totalRemainingCredit);         
          };
-
-
             useEffect(() => {
                         fetch('courseRegistation.json')
                         .then(res => res.json())
                         .then(data => setcoursedata(data))
             },[])
-
-            
-           
-
             return (
               <div className={style.banner}>
                 <div className="max-w-7xl mx-auto h-full flex gap-5">

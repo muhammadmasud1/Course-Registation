@@ -25,6 +25,20 @@ const Banner = () => {
                     </div>
                   </div>
                 </div>
+                <div className="">
+                  <h1 className="text-white text-4xl text-center py-5 font-serif text-bold">
+                    <span className={styles.serviceTitle}>
+                      Course Registation
+                    </span>
+                  </h1>
+                  <p className="text-center text-[#ccc]">
+                    We turn information into actionable insights We work to
+                    understand your issues and <br />
+                    are driven to ask better questions in the pursuit of making
+                    work.
+                  </p>
+                  <div className="py-10"></div>
+                </div>
               </div>
             );
 };
