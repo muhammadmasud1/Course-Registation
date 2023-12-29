@@ -4,6 +4,9 @@ padding: 12px 24px;
 border-radius: 5px;
 background: var(--Gardient, linear-gradient(90deg, #2563EB 0.36%, #D946EF 201.02%));
 }
+.image {
+filter: drop-shadow(0 0 0.90rem rgb(47, 7, 225));
+}
 .nav{
 background: #000428;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #000428, #004e92);  /* Chrome 10-25, Safari 5.1-6 */

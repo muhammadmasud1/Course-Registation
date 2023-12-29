@@ -22,6 +22,7 @@ const ServiceCard = ({serviceItem}) => {
                   </div>
                 </div>
               </div>
+              
             );
 };
 

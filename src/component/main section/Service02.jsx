@@ -16,7 +16,7 @@ const Service02 = () => {
 
             return (
               <div className={styles.banner}>
-                <div className="text-center py-20">
+                <div className="text-center py-16">
                   <h1 className="text-white text-3xl font-semibold">
                     Our Services
                   </h1>
