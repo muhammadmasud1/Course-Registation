@@ -5,19 +5,34 @@ const Service01 = () => {
          const [course,setcoursedata] = useState([])
          const [selectdata, setselectdata] = useState([])
          const [price,setprice] = useState(0)
-
+         const [totalCredit, setTotalCredit] = useState(0)
+         const [totalRemaining,setTotalRemaining] = useState(20)
+           
+         // Function item Value Display Show
          const handledata = (item) => {
            const newItemData = [...selectdata, item];
-           setselectdata(newItemData);
-          
+           setselectdata(newItemData);         
            // total price
+          const tottalCoursePrice = parseFloat(item.coursePrice);
+          setprice(price + tottalCoursePrice);
+         // total Credit
+         const totalCreditData = parseFloat(item.credit);
+         setTotalCredit(totalCredit + totalCreditData)
+          // total Remaining
+          const totalCreditHour = totalCredit + totalCreditData;
           
+         if (totalCreditHour > 20) {
+           alert("Finished Your Creadit");
+           return;
+         }
+          setTotalCredit(totalCreditHour);
 
-
+          const totalRemainingCredit = 20 - totalCreditHour;
+          setTotalRemaining(totalRemainingCredit);
+         
+          
          };
 
-     
-          
 
             useEffect(() => {
                         fetch('courseRegistation.json')
@@ -43,7 +58,7 @@ const Service01 = () => {
                   <div className="w-[60%] p-4 shadow-sm ">
                     <div className="border-2 border-y-cyan-300 px-2 py-2 shadow-sm">
                       <h1 className="text-[20px] font-bold mb-4 text-white">
-                        Credit Our remaining 20 hr
+                        Credit Our remaining {totalRemaining} hr
                       </h1>
                       <hr />
                       <div className="my-5">
@@ -57,11 +72,11 @@ const Service01 = () => {
                         </ol>
                         <hr />
                         <h3 className="py-4 text-white">
-                          Total Credit Hour : 10 hr
+                          Total Credit Hour : {totalCredit} hr
                         </h3>
                         <hr />
                         <h3 className="py-4 text-white">
-                          Total Price : 100 USDT
+                          Total Price : {price} USDT
                         </h3>
                       </div>
                     </div>

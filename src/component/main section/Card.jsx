@@ -20,7 +20,7 @@ const Card = ({ item, handledata }) => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             <FaCommentDollar />
-            <h3>Price : {coursePrice} Tk</h3>
+            <h3>Price : {coursePrice} </h3>
           </div>
           <div className="flex items-center gap-3">
             <FaCreditCard />
