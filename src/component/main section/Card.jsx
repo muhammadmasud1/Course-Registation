@@ -17,19 +17,19 @@ const Card = ({ item, handledata }) => {
       <div className="card-body overflow-hidden ">
         <h2 className="card-title text-white">
           {courseName}
-          <div className="badge badge-secondary">NEW</div>
+          <div className="badge bg-[#ccc]">NEW</div>
         </h2>
         <p className="text-white">{description}</p>
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <span className="text-[#FF00D3]">
+            <span className="text-[#ccc]">
               {" "}
               <FaCommentDollar />
             </span>
             <h3 className="text-white">Price : {coursePrice} </h3>
           </div>
           <div className="flex items-center gap-3">
-            <span className="text-[#FF00D3]">
+            <span className="text-[#ccc]">
               <FaCreditCard />
             </span>
             <h3 className="text-white">Credit : {credit}</h3>
