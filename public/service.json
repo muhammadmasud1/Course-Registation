@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "courseImg": "https://i.ibb.co/G3PKHDT/Icon1.png",
+    "serviceName": "Order Management",
+    "description": "Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+    "link" : "Learn more"
+  },
+  {
+    "id": 2,
+    "courseImg": "https://i.ibb.co/kxHfcnp/Icon2.png",
+    "serviceName": "Social Assistant",
+    "description": "Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+    "link" : "Learn more"
+  },
+  {
+    "id": 3,
+    "courseImg": "https://i.ibb.co/GpK9WtX/Icon3.png",
+    "serviceName": "Crypto Platform",
+    "description": "Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+    "link" : "Learn more"
+  },
+  {
+    "id": 4,
+    "courseImg": "https://i.ibb.co/3h95mfm/icon4.png",
+    "serviceName": "Smart Trading Modules",
+    "description": "Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+    "link" : "Learn more"
+  },
+  {
+    "id": 5,
+    "courseImg": "https://i.ibb.co/tpxp3FN/Icon5.png",
+    "serviceName": "Analyzer of the News",
+    "description": "Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+    "link" : "Learn more"
+  },
+  {
+    "id": 6,
+    "courseImg": "https://i.ibb.co/G3PKHDT/Icon1.png",
+    "serviceName": "Module of Price Notification",
+    "description": "Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+    "link" : "Learn more"
+  }
+  
+]
+
+
+
+
+
