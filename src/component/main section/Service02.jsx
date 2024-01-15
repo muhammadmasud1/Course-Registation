@@ -2,9 +2,6 @@ import { useEffect, useState } from "react";
 import styles from "../header/button.module.css"
 import ServiceCard from "./ServiceCard";
 
- 
-
-
 const Service02 = () => {
            const [serviceItem, setServiceItem] = useState([])
           
@@ -16,7 +13,7 @@ const Service02 = () => {
 
             return (
               <div className={styles.banner}>
-                <div className="text-center py-16">
+                <div className="text-center py-16 px-3">
                   <h1 className="text-white text-3xl font-semibold">
                     Our Services
                   </h1>
@@ -27,7 +24,7 @@ const Service02 = () => {
                   </p>
                 </div>
                 <div className="max-w-6xl mx-auto">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center justify-center gap-5">
+                  <div className="grid grid-cols-1 px-4 sm:grid-cols-2 md:grid-cols-3 items-center justify-center gap-5">
                     {serviceItem.map((serviceItem) => (
                       <ServiceCard key={serviceItem.id} serviceItem={serviceItem}></ServiceCard>
                     ))}

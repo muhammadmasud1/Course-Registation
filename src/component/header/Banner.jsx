@@ -2,7 +2,7 @@ import styles from './button.module.css'
 const Banner = () => {
             return (
               <div className={styles.banner}>
-                <div className="max-w-6xl mx-auto h-screen">
+                <div className="max-w-6xl px-4 mx-auto h-screen">
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 items-center justify-between gap-5">
                     <div>
                       <h1 className={styles.bannertitle}>

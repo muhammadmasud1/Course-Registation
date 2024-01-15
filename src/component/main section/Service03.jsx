@@ -3,7 +3,7 @@ const Service03 = () => {
             return (
               <div className={styles.banner}>
                 <div className="py-16">
-                  <div className="max-w-6xl mx-auto  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 justify-between items-center">
+                  <div className="max-w-6xl px-5 mx-auto  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 justify-between items-center">
                     <div>
                       <img className={styles.image}
                         src="https://i.ibb.co/3CtsxYC/service03.png"

@@ -3,7 +3,7 @@ import styles from "../header/button.module.css"
 const OurTeam = () => {
             return (
               <div className={styles.banner}>
-                <div className="text-center text-white">
+                <div className="text-center px-3 text-white">
                   <h1 className="text-4xl font-semibold">Our Team</h1>
                   <p className="text-white py-5">
                     Meet our skilled Front-End Developer! With a passion for

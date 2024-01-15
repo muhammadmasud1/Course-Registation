@@ -54,8 +54,8 @@ const Service01 = () => {
             },[])
             return (
               <div className={style.banner}>
-                <div className="max-w-7xl mx-auto h-full flex gap-5">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+                <div className="max-w-7xl  mx-auto h-full flex-col  lg:flex-row flex gap-5">
+                  <div className="grid grid-cols-1 px-5 sm:grid-cols-2 md:grid-cols-3 gap-7">
                     {course.map((item, index) => (
                       <Card
                         handledata={handledata}
@@ -64,7 +64,7 @@ const Service01 = () => {
                       ></Card>
                     ))}
                   </div>
-                  <div className="w-[60%] p-4 shadow-sm ">
+                  <div className="w-full  amountCard md:w-[60%] p-4 shadow-sm md:ml-4  ">
                     <div className="border-2 border-y-cyan-300 px-2 py-2 shadow-sm">
                       <h1 className="text-[20px] font-bold mb-4 text-white">
                         Credit Our remaining {totalRemaining} hr

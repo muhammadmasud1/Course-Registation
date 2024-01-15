@@ -15,7 +15,7 @@ const Service05 = () => {
             return (
               <div className={styles.banner}>
                 <div className="max-w-6xl mx-auto py-10">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                  <div className="grid grid-cols-1 px-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
                     {clientData.map((clientData) => (
                       <ClientService
                         key={clientData.id}

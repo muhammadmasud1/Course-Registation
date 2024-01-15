@@ -3,7 +3,7 @@ const Service04 = () => {
             return (
               <div className={styles.banner}>
                 <div className="max-w-6xl mx-auto">
-                  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 justify-between items-center">
+                  <div className="grid grid-cols-1 px-5 sm:grid-cols-1 md:grid-cols-2 justify-between items-center">
                     <div>
                       <h1 className={styles.serviceTitle}>
                         We complete every project extra care as customer need
